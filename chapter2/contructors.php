@@ -12,11 +12,14 @@
         include'comments.php';
 
 
-        $comment = new comments('I want Fruit for Dinner');
+        $comment = new comments('I want Fruit for Dinner', 'Ejike');
 
-        echo $comment->text;
+        // echo $comment->text;
 
 	?>
+
+
+	<h2><?php echo $comment->text;?> by a user <?php echo $comment->userid;?></h2>
 
 </body>
 </html>
