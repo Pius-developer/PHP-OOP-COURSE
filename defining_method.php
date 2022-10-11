@@ -12,6 +12,14 @@ class basket
 
 	public $shippingcost;
 
+	public function calculatetotal(){
+
+		$total = $this->itemscost + $this->shippingcost;
+
+		return $total;
+
+	}
+
 }
 
 // instantiate the class (object)
@@ -27,7 +35,7 @@ $basket->shippingcost =100;
 // var dumping our object values
 
 
-var_dump($basket);
+var_dump($basket->calculatetotal());
 
 
 ?>
