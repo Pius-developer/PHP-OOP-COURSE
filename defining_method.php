@@ -1,7 +1,4 @@
 <?php
-
-
-
 // create a class say checkout basket
 
 class basket
