@@ -1,9 +1,5 @@
 <?php
-
-
 // Creating a class
-
-
 class user
 {
 	// Creating Properties of a class
