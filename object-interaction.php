@@ -4,8 +4,6 @@
 
 class song
 {
-
-
 	// Create a songId and a public song properties
 
 	public $songId;
@@ -49,9 +47,6 @@ $playlist->addSong($juicewrld);
 
 
 var_dump($playlist);
-
-
-
 
 
 ?>
