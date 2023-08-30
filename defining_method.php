@@ -1,6 +1,5 @@
 <?php
 // create a class say checkout basket
-
 class basket
 {
 	// creating public properties
@@ -18,7 +17,6 @@ class basket
 	}
 
 }
-
 // instantiate the class (object)
 
 $basket = new basket();
